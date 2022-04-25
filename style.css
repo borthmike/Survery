@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  background-image: url("https://i.pinimg.com/originals/a1/79/06/a179069e21db0362c06bf7e07f81e29d.jpg");
+    background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.container{
+  width: 100%;
+   margin: 3.5em auto 0 0.8em;
+}
+
+h3{
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+form{
+  width: fit-content;
+  background-color: black;
+  opacity: .7;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+#title{
+  font-size: 28px;
+  margin-left: 20px;
+}
+
+#description{
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+header{
+  width: 470px;
+  background-color: black;
+  opacity: .7;
+  border-radius: 10px;
+}
+
+p{
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-size: 1em;
+  font-weight: bold;
+}

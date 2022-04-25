@@ -1,0 +1,197 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+<div class="container">
+  <header>
+    <h1 id="title">
+      Health and Fitness Feedback Form
+    </h1>
+    <p id="description">
+      Thank you for taking the time to help us improve everyone's health
+    </p>
+  </header>
+
+  <form action="" id="survey-form">
+
+    <div class="form-group">
+      <label for="name" id="name-label">Name: </label>
+
+      <input type="text" id="name" class="form-control" required placeholder="Enter Your Full Name">
+    </div>
+
+    <div class="form-group">
+      <label for="email" id="email-label">Email: </label>
+
+      <input type="email" id="email" class="form-control" required placeholder="Enter Your Email">
+
+      <div class="form-group">
+        <label for="number" id="number-label">Age: </label>
+
+        <input type="number" id="number" class="form-control" required min="16" max="" placeholder="Enter Your Age">
+      </div>
+
+    </div>
+    <div class="form-control">
+      <h3>
+        Where do you workout at?
+      </h3>
+      <select name="role" id="dropdown" class="form-control" required>
+        <optioin disable selec<span style="white-space: nowrap;">ted value>Select One</optioin>
+        <option value="home">At Home</option>
+        <option value="commercial gym">Commercial Gym</option>
+        <option value="private gym">Private Gym</option>
+        <option value="crossfit">Crossfit Gym</option>
+        <option value="strongman">Strongman Gym</option>
+        <option value="other">Other</option>
+
+      </select>
+
+    </div>
+    <div class="form-check">
+      <h3>
+        What is your favorite workout day?
+      </h3>
+
+      <label for=""><span style="white-space: nowrap;">
+        <input type="radio" name="user-recommend" value="chest" class="form-check-imput" checked>Chest
+      </label>
+    </div>
+    <div class="form-check">
+      <label>
+        <input type="radio" name="user-recommend" value="back" class="form-check-imput" />Back
+      </label>
+    </div>
+    <div class="form-check">
+      <label>
+        <input type="radio" name="user-recommend" value="legs" class="form-check-imput" />Legs
+      </label>
+    </div>
+    <div class="form-check">
+      <label>
+        <input type="radio" name="user-recommend" value="arms" class="form-check-imput" />Arms
+      </label>
+    </div>
+    <div class="form-check">
+      <label>
+        <input type="radio" name="user-recommend" value="push" class="form-check-imput" />Push
+      </label>
+    </div><span style="white-space: nowrap;">
+    <div class="form-check">
+      <label>
+        <input type="radio" name="user-recommend" value="pull" class="form-check-imput" />Pull
+      </label>
+    </div>
+    <div class="form-check">
+      <label>
+        <input type="radio" name="user-recommend" value="upper" class="form-check-imput" />Upper
+      </label>
+    </div> 
+    <div class="form-check">
+      <label>
+        <input type="radio" name="user-recommend" value="lower" class="form-check-imput" />Lower
+      </label>
+    </div> 
+    
+    
+    <div class="form-group">
+      <h3>
+        What is your favorite exercise?
+        <span class="clue">(Check all that apply)</span>
+      </h3>
+
+  <ul id="exercise-category" class="checkbox">
+      <label
+        ><input
+          name="prefer"
+          value="bench"
+          type="checkbox"
+          class="input-checkbox"
+        />Bench</label
+        ></ul>
+  
+  <ul id="exercise-category" class="checkbox">
+      <label>
+        <input
+          name="prefer"
+          value="deadlift"
+          type="checkbox"
+          class="input-checkbox"
+        />Deadlift</label
+        ></ul>
+  
+  <ul id="exercise-category" class="checkbox">
+      <label
+        ><input
+          name="prefer"
+          value="squat"
+          type="checkbox"
+          class="input-checkbox"
+        />Squat</label
+        ></ul>
+      
+      <ul id="exercise-category" class="checkbox">
+      <label
+        ><input
+          name="prefer"
+          value="curls"
+          type="checkbox"
+          class="input-checkbox"
+        />Curls</label
+        ></ul>
+      
+      <ul id="exercise-category" class="checkbox">
+      <label
+        ><input
+          name="prefer"
+          value="legpress"
+          type="checkbox"
+          class="input-checkbox"
+        />Leg Press</label
+        ></ul>
+      
+      <ul id="exercise-category" class="checkbox">
+      <label
+        ><input
+          name="prefer"
+          value="skullcrushers"
+          type="checkbox"
+          class="input-checkbox"
+        />Skull-Crushers</label
+        ></ul>
+      
+      <ul id="exercise-category" class="checkbox">
+      <label
+        ><input
+          name="prefer"
+          value="hammer"
+          type="checkbox"
+          class="input-checkbox"
+        />Hammer Curls</label
+        ></ul>
+      
+      <ul id="exercise-category" class="checkbox">
+      <label
+        ><input
+          name="prefer"
+          value="other-exercises"
+          type="checkbox"
+          class="input-checkbox"
+        />Other Exercises</label
+        ></ul>
+    </div>
+      
+    <div class="form-group">
+      <p>Any comments or suggestions?</p>
+      <textarea name="comment" id="comments" class="form-control" cols="30" rows="5" placeholder="Enter your comments here...">
+        </textarea>
+    </div>
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+   
+  </form>
+
+</div>
